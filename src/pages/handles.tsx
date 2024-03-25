@@ -1,3 +1,5 @@
+import { PageLayoutBuilder } from "@/components/page-layout-builder";
+
 export function Handles() {
-  return <div>Handles</div>;
+  return <PageLayoutBuilder left={null} right={null} />;
 }
